@@ -29,7 +29,7 @@ function People(props){
             <StyleP>
                 {props.height}
             </StyleP>
-            <StyleP>
+            <StyleP> 
                 {props.hairColor}
             </StyleP>
             <StyleP>
