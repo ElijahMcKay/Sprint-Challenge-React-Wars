@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"; 
 import axios from "axios"; 
 import People from "./People"; 
-import styled from "styled-components"; 
+
 
 
 function Data() {
@@ -46,37 +46,4 @@ function Data() {
 }
 
 export default Data; 
-
-// function Data() {
-//     const [data, setData] = useState([]); 
-
-
-//     useEffect(() => {
-//         axios
-//         .get('https://swapi.co/api/people/')
-//         .then(response => {
-//             // console.log(`${response.data.results}`)
-//             setData(response.data.results); 
-//         })
-//         .catch(error => {
-//             console.log('There was an error:', error); 
-//         })}, [data]); 
-//         console.log(data); 
-//         return (
-//             <div>
-//                 <People>{data.map(obj => {
-//                     return <div>{obj.name}</div>})}
-//                 </People>
-//                 {/* <Image imageSrc={data.url}/>
-//                 <Title title={data.title}/>
-//                 <Date date={data.date}/>
-//                 <Explanation exp={data.explanation}/>
-//                 <Copyright copyright={data.copyright}/> */}
-//             </div>
-//         )
-
-// }
-
-// export default Data; 
-
 
