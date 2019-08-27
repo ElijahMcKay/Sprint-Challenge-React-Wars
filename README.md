@@ -25,14 +25,28 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React tries to reduce the amount of DOM manipulation you have to do, since it's so time consuming.  React also makes state changes a breeze and allows you to break down very large projects into manageable chunks.
 
-- [ ] What does it mean to _think_ in react?
 
-- [ ] Describe state.
+ - [ ] What does it mean to _think_ in react?	- [ ] What does it mean to _think_ in react?
+1. Break The UI Into A Component Hierarchy
+2. Build A Static Version in React
+3. Identify The Minimal (but complete) Representation Of UI State
+4. Identify Where Your State Should Live
+5. Add Inverse Data Flow
 
-- [ ] Describe props.
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+ - [ ] Describe state.	- [ ] Describe state.
+ state is an object that can represent the parts of the app that can change
+
+
+ - [ ] Describe props.	- [ ] Describe props.
+a technique for sharing data between components 
+
+
+ - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?	- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+ a side affect is anything that affects something outside of the scope of the function you're executing.  You can use hooks to sync these to your component. 
 
 ## Project Set Up
 
